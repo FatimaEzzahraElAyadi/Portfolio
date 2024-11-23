@@ -1,0 +1,63 @@
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  
+  #home-section .slider-item {
+    display: flex;
+    flex-direction: column; /* Empile la photo et le texte verticalement */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #home-section .slider-item .img {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+
+  #home-section .subheading {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  #home-section h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  #home-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  #home-section .btn {
+    width: 100%; /* Boutons prennent toute la largeur */
+    margin-bottom: 10px;
+  }
+
+  
+  
+    .col-md-4 {
+      margin-bottom: 20px;
+    }
+    h1, h2, h3 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+    .container {
+      padding: 10px;
+    }
+    .project {
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  /* General adjustments */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
