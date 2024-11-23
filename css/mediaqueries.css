@@ -1,6 +1,9 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  
+  #home-section {
+  height: 100vh; /* Hauteur de la section égale à la hauteur de la fenêtre */
+  overflow: auto; /* Permet le défilement si nécessaire */
+}
   #home-section .slider-item {
     display: flex;
     flex-direction: column; /* Empile la photo et le texte verticalement */
